@@ -9,6 +9,9 @@ Base.metadata.create_all(bind=engine)
 
 # Initialize FastAPI app
 app = FastAPI()
+@app.get("/")
+def read_root():
+    return {"message": "Welcome to Taskify!"}
 app.include_router(auth_router)
 # Middleware
 add_cors_middleware(app)
