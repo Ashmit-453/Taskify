@@ -5,6 +5,7 @@ sqlalchemy
 databases
 psycopg2-binary  # If using PostgreSQL
 python-dotenv
+python-multipart
 passlib[bcrypt]
 python-jose
 pyjwt
