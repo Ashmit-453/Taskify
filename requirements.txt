@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+databases
+psycopg2-binary  # If using PostgreSQL
+sqlite3  # If using SQLite (comes with Python)
+python-dotenv
+passlib[bcrypt]
+python-jose
+pyjwt
+redis
+aioredis
+fastapi-cache2
+celery
